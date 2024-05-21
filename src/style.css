@@ -1,0 +1,160 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #94a3b8;
+    
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*************/
+  @font-face {
+    font-family: 'allerbold';
+    src: url('aller_bd-webfont.woff2') format('woff2'),
+         url('aller_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'quicksandregular';
+  src: url('quicksand-regular-webfont.woff2') format('woff2'),
+       url('quicksand-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+  .buttonMenu{
+    border-radius: 5px;
+    background-color: #4ade80;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: 'allerbold';
+    color:#fafafa;
+    border: none;
+    
+  }
+  .buttonAbout{
+    border-radius: 5px;
+    background-color: #4ade80;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: 'allerbold';
+    color:#fafafa;
+    border: none;
+    
+  }
+  .buttonHome{
+    border-radius: 5px;
+    background-color: #4ade80;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: 'allerbold';
+    color:#fafafa;
+    border: none;
+    
+  }
+  .navbar{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  .contentHomePage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  
+  .description{
+    font-family: 'quicksandregular';
+    margin-bottom: 50px; 
+  }
+  .title{
+    font-family: 'quicksandregular';
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .image{
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+  }
+  /*****menu*******/
+  .middleTitle{
+    font-family: 'quicksandregular';
+    font-style: italic;
+    margin-left: 190px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .middleDescription{
+    font-family: 'quicksandregular';
+    max-width: 250px;
+  }
+  .image1{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+  }
+  .firstContent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 50px;
+    margin-left: 190px;
+  }
+  .secondContent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 190px;
+  }
+  .thirdContent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 190px;
+  }
+  /*******About*****/
+  .contentAbout{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .info1{
+    font-family: 'quicksandregular';
+    max-width: 100px; 
+  }
+  .info2{
+    font-family: 'quicksandregular';
+    max-width: 100px; 
+  }
+  .infos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .input{
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+  }
+  .submit{
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+  
